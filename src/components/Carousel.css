@@ -1,0 +1,12 @@
+/* Carousel.css */
+.custom-carousel {
+    height: 400px; /* You can adjust the height as needed */
+  }
+  
+  /* Style the images within the carousel */
+  .custom-carousel img {
+    max-height: 100%;
+    width: auto;
+    margin: 0 auto;
+  }
+  

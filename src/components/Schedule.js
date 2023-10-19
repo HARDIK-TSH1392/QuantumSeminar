@@ -8,7 +8,7 @@ const Schedule = () => {
     { date: '02/11/2023', speaker: 'Prof. Anirban Pathak', workplace: 'JIIT, Noida' },
     { date: '07/11/2023', speaker: 'Prof. R.P. Singh', workplace: 'PRL, Ahmedabad' },
     { date: '08/11/2023', speaker: 'Dr. Anindita Banerjee', workplace: 'CDAC, Pune' },
-    { date: '09/11/2023', speaker: 'Dr. Amit Srivastava', workplace: 'DRDO Hyderabad' },
+    { date: '09/11/2023', speaker: 'Dr. Amit Srivastava', workplace: 'DRDO, Hyderabad' },
   ];
   return (
     <div id='schedule'>

@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
 import './Schedule.css';
 
 const Schedule = () => {
   const scheduleData = [
-    { date: '31/10/2023', speaker: 'Prof. G Raghavan', workplace: 'DIAT, Pune' },
-    { date: '01/11/2023', speaker: 'Mr. Atul Gupta', workplace: 'CDoT, Delhi' },
-    { date: '02/11/2023', speaker: 'Prof. Anirban Pathak', workplace: 'JIIT, Noida' },
-    { date: '07/11/2023', speaker: 'Prof. R.P. Singh', workplace: 'PRL, Ahmedabad' },
-    { date: '08/11/2023', speaker: 'Dr. Anindita Banerjee', workplace: 'CDAC, Pune' },
-    { date: '09/11/2023', speaker: 'Dr. Amit Srivastava', workplace: 'DRDO, Hyderabad' },
+    { date: '31/10/2023', time: '4:30pm - 6:00pm', speaker: 'Prof. G Raghavan', workplace: 'DIAT, Pune' },
+    { date: '01/11/2023', time: '4:30pm - 6:00pm', speaker: 'Mr. Atul Gupta', workplace: 'CDoT, Delhi' },
+    { date: '02/11/2023', time: '4:30pm - 6:00pm', speaker: 'Prof. Anirban Pathak', workplace: 'JIIT, Noida' },
+    { date: '07/11/2023', time: '4:30pm - 6:00pm', speaker: 'Prof. R.P. Singh', workplace: 'PRL, Ahmedabad' },
+    { date: '08/11/2023', time: '2:00pm - 3:30pm', speaker: 'Dr. Anindita Banerjee', workplace: 'CDAC, Pune' },
+    { date: '09/11/2023', time: '4:30pm - 6:00pm', speaker: 'Dr. Amit Srivastava', workplace: 'DRDO, Hyderabad' },
   ];
+
   return (
     <div id='schedule'>
       <div className="container mb-5" style={{ backgroundColor: '#aad6ec' }}>
@@ -21,6 +22,7 @@ const Schedule = () => {
             <thead>
               <tr>
                 <th>Date</th>
+                <th>Time</th> {/* Added Time column */}
                 <th>Speaker</th>
                 <th>Workplace</th>
               </tr>
@@ -29,6 +31,7 @@ const Schedule = () => {
               {scheduleData.map((item, index) => (
                 <tr key={index}>
                   <td>{item.date}</td>
+                  <td>{item.time}</td> 
                   <td>{item.speaker}</td>
                   <td>{item.workplace}</td>
                 </tr>
@@ -38,7 +41,7 @@ const Schedule = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Schedule
+export default Schedule;

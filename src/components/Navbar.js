@@ -17,7 +17,7 @@ const Navbar = () => {
         setActiveLink('about');
       } else if (scrollY >= 800 && scrollY < 1200) {
         setActiveLink('schedule');
-      } else {
+      } else if (scrollY >= 1200 && scrollY < 1600) {
         setActiveLink('speakers');
       }
     };

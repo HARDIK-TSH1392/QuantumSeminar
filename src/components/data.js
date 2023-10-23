@@ -30,7 +30,7 @@ const data = {
         bio: "Dr Anindita Banerjee received her PhD from Jaypee Institute of Information Technology (JIIT), Noida where, she worked on synthesis and optimization of reversible circuits, quantum circuit optimization and quantum communication protocols. During her PhD, she was a visiting scholar at the University of Calgary and later at University of Brunswick Canada. After her PhD she worked as an Assistant Prof. in Women College of Engineering, Durgapur. Later she joined as Research Associate in Bose Institute, Kolkata, where she spearheaded the group leading to successful demonstration of single photon experiments."
     },
     speaker6:{
-        name: "Dr.Amit Srivastava",
+        name: "Mr. Amit Srivastava",
         work: "DRDO, Delhi ",
         title: "Quantum Key Distribution: Implementation Challenges and The Way Ahead",
         bio: "Quantum technologies leverage on quantum physics properties such as superposition, entanglement, to provide disruptive solutions for processing information, exchanging data and interacting with the world. Quantum computing, Quantum communication and Quantum Sensing are the three verticals with the potential of impacting the defence, national security and other sector. Out of these three, the Quantum Communication especially the quantum key distribution (QKD) is the most mature and most ubiquitous applications of quantum technology. He will discuss about the implementation of Distributed Phase Reference based on phase and time-bin encoding QKD Protocols on optical fibre media up to 100 km and the results obtained and lesson learned during field trials will be presented."

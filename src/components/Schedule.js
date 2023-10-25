@@ -3,7 +3,7 @@ import './Schedule.css';
 
 const Schedule = () => {
   const scheduleData = [
-    { date: '31/10/2023', time: '4:30pm - 6:00pm', speaker: 'Prof. G Raghavan', workplace: 'DIAT, Pune' },
+    { date: '31/10/2023', time: '3:00pm - 4:30pm', speaker: 'Prof. G Raghavan', workplace: 'DIAT, Pune' },
     { date: '01/11/2023', time: '4:30pm - 6:00pm', speaker: 'Mr. Atul Gupta', workplace: 'CDoT, Delhi' },
     { date: '02/11/2023', time: '4:30pm - 6:00pm', speaker: 'Prof. Anirban Pathak', workplace: 'JIIT, Noida' },
     { date: '07/11/2023', time: '4:30pm - 6:00pm', speaker: 'Prof. R.P. Singh', workplace: 'PRL, Ahmedabad' },
